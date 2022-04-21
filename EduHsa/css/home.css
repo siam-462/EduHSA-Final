@@ -1,0 +1,140 @@
+*{
+    box-sizing: border-box ;
+    
+  }
+  body{
+    
+    margin: 0;
+  }
+  
+  /* .container-img{
+    position: relative;
+    /* background-image: url(/pic.jpg); */
+    /* opacity: 0.5; */
+   background:#25d4d4;
+    height:120vh;
+    padding-top: 10px;
+   
+    
+  }
+  .container::after{
+    position: absolute;
+    top: 0; left: 0;
+    z-index: -1;
+    content: "";
+  
+  } */
+  
+  .bdy{
+    width: 70%;
+    height: 700px;
+    border-radius: .5rem;
+    background:white;
+    margin-top: 10px;
+  
+  }
+  .title{
+      color: crimson;
+      font-size:xx-large;
+  }
+  /* .navbar {
+      background-color:#fff;
+      overflow: hidden;
+    }
+  
+  
+  .navbar a {
+      float: left;
+      color:crimson;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+      font-size: 17px;
+    }
+  
+    .navbar a:hover {
+      background-color:rgb(128, 0, 100);
+      color: black;
+    }
+    .navbar a.active {
+      background-color: #af4c91;
+      color: white;
+    }
+   */
+  
+     .center{
+       margin: 0 auto;
+       text-align: center;
+     }
+     .hide{
+       display: none;
+     }
+  
+     .btn{
+       padding: 8px 8px;
+       border: 0px solid transparent;
+       border-radius: .25rem;
+       background:#bccacade;
+       cursor: pointer;
+       outline: none;
+       
+  
+     }
+  
+     .buttoncontainer{
+       padding: 12px ;
+     }
+     .bc{
+       padding:16px 18px;
+       font-weight: bold;
+     }
+  
+     .list{
+       background-color: white;
+  
+     }
+     
+     .list li {
+      font-family: "DejaVu Sans", sans-serif;
+      font-weight: bold;
+      padding: 10px 6px ;
+      overflow: hidden;
+    }
+    
+    .list li:nth-child(odd) {
+      background-color: #e3f3d4;
+    }
+    
+    .list li p {
+      margin: 0 2em;
+      overflow: hidden;
+      float: left;
+      position: relative;
+      bottom: 1em;
+    }
+    .list li{
+      cursor: pointer;
+
+    }
+
+    .list a:hover{
+     
+      font-weight: bold;
+      color: tomato;
+    }
+
+    #c{
+      min-height: 550px;
+
+    }
+
+    .mt{
+      color:#FF6700;
+      font-family: verdana;
+      font-size: 150%;
+      font-style:inherit;
+
+    }
+
+     
+  
